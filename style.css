@@ -1,0 +1,51 @@
+body {
+   font-family: Arial, sans-serif;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   height: 100vh;
+   background-color: #f4f4f4;
+}
+.container {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.Titulo_Clave input {
+   width: 100%;
+   padding: 10px;
+   margin: 10px 0;
+   border-radius: 2px;
+}
+.teclado {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   gap: 10px;
+}
+.tecla {
+   width: 90px;
+   height: 60px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color: #fff;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+   cursor: pointer;
+   font-size: 1.2em;
+   position: relative;
+}
+.tecla::after {
+   content: attr(data-value);
+}
+.tecla:hover::after {
+   content: '*';
+}
+.tecla:hover {
+   color: transparent;
+}
+.tecla.ingresar {
+   background-color: #4CAF50;
+   color: #fff;
+}
