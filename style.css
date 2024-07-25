@@ -1,3 +1,4 @@
+/* Cuerpo */
 body {
    font-family: 'Montserrat', sans-serif;
    background-color: #f5f5f5;
@@ -5,6 +6,7 @@ body {
    padding: 0;
 }
 
+/* Home principal */
 header {
    background-color: #fff;
    padding: 10px 20px;
@@ -14,70 +16,73 @@ header {
    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
+/* Home principal */
 nav {
    display: flex;
    align-items: center;
 }
-
+/* Home Logo */
 nav .logo {
    font-size: 24px;
    font-weight: bold;
 }
 
+/* Home texto home */
 nav ul {
    list-style: none;
    display: flex;
    margin: 0;
    padding: 0;
-}
-
-nav ul li {
    margin-left: 20px;
+
 }
 
+/* Home diseño home */
 nav ul li a {
    text-decoration: none;
    color: #000;
    font-weight: 700;
 }
 
-.cart {
-   font-weight: 700;
-}
-
-.hero {
+/* Titulo */
+.titulop {
    text-align: center;
    padding: 100px 20px;
    background-color: #fff;
    position: relative;
 }
 
-.hero h1 {
+/* Titulo */
+.titulop h1 {
    font-size: 72px;
    margin: 0 0 40px;
    font-weight: 700;
    line-height: 1;
 }
 
+/* Titulo Productos */
 .products {
    display: flex;
    justify-content: center;
-   gap: 60px;
+   gap: 80px;
    margin-top: 40px;
 }
 
-.product {
+/* Productos */
+.producto {
    text-align: center;
    position: relative;
 }
 
-.product img {
+/* Productos img */
+.producto img {
    width: 300px;
    height: auto;
    transition: opacity 0.3s ease;
 }
 
-.product p {
+/* Productos texto */
+.producto p {
    font-size: 24px;
    font-weight: 700;
    margin-top: 10px;

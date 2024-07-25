@@ -1,12 +1,12 @@
-document.querySelectorAll('.product').forEach(product => {
-    const initialImage = product.querySelector('img').src;
-    const hoverImage = product.getAttribute('data-hover');
+document.querySelectorAll('.producto').forEach(producto => {
+    const initialImage = producto.querySelector('img').src;
+    const hoverImage = producto.getAttribute('data-hover');
 
-    product.addEventListener('mouseenter', () => {
-        product.querySelector('img').src = hoverImage;
+    producto.addEventListener('mouseenter', () => {
+        producto.querySelector('img').src = hoverImage;
     });
 
-    product.addEventListener('mouseleave', () => {
-        product.querySelector('img').src = initialImage;
+    producto.addEventListener('mouseleave', () => {
+        producto.querySelector('img').src = initialImage;
     });
 });
