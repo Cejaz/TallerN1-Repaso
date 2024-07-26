@@ -1,11 +1,3 @@
-// Selecciona el contenedor del teclado
-const keyboard = document.querySelector('.teclado');
-keyboard.addEventListener('mouseenter', () => {
-   keyboard.classList.add('hidden');
-});
-keyboard.addEventListener('mouseleave', () => {
-   keyboard.classList.remove('hidden');
-});
 // Selecciona todos los elementos con la clase 'tecla'
 const keys = document.querySelectorAll('.tecla');
 keys.forEach(key => {
