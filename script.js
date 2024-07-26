@@ -17,7 +17,7 @@ keys.forEach(key => {
            input.value = input.value.slice(0, -1);
        } else if (value === 'Ingresar') {
            // Si la tecla es 'Ingresar', redirige a la URL deseada
-           window.location.href = 'https://www.ejemplo.com';
+           window.location.href = 'https://xacarana.com/cursos/aplicaciones_moviles/#/2/1';
        } else {
            // Si no, añade el valor de la tecla al input
            input.value += value;
